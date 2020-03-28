@@ -18,16 +18,18 @@ var app = new Vue({
         { label: '无衬线', value: "Roboto, Oxygen, Ubuntu, Cantarell, PingFangSC-light, PingFangTC-light, 'Open Sans', 'Helvetica Neue', sans-serif"}
       ],
       currentFont: "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
-      currentSize: '16px',
+      currentSize: '14px',
       sizeOption: [
+        { label: '14px', value: '14px', desc: '较小' },
         { label: '16px', value: '16px', desc: '默认' },
         { label: '17px', value: '17px', desc: '正常' },
         { label: '18px', value: '18px', desc: '稍大' }
       ],
-      currentTheme: 'default',
+      currentTheme: 'zhang',
       themeOption: [
         { label: 'default', value: 'default', author: 'Lyric'},
-        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'}
+        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'},
+        { label: 'zhang', value: 'zhang', author: '张小璋'}
       ],
       styleThemes: {
         default: defaultTheme,
