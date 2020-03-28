@@ -2,7 +2,8 @@ var zhangTheme = {
   BASE: {
     'text-align': 'left',
     'color': '#3f3f3f',
-    'line-height': '1.5',
+    'line-height': '1.75',
+    'letter-spacing':'2.0'
   },
   BASE_BLOCK: {
     'margin': '20px 10px'
@@ -23,7 +24,7 @@ var zhangTheme = {
     },
     p: {
       'font-size': '100%',
-      'margin': '10px 10px'
+      'margin': '10px 10px',
     },
     blockquote: {
       'color': 'rgb(91, 91, 91)',
@@ -63,7 +64,7 @@ var zhangTheme = {
     },
     footnotes: {
       'margin': '10px 10px',
-      'font-size': '14px'
+      'font-size': '12px'
     }  
   },
   inline: {
